@@ -1,10 +1,12 @@
 # NLPGandhi
-This is the final submission for the BTech Project (BTP).
 
-1. [REDACTED]
-2. The folder 'code' contains the python programs used.
+A study of narrative drift from the collected works of Mahatma Gandhi.
 
-word-cloud_Gandhi.py : To generate the word clouds for the three periods
-skip-gram_Gandhi.py : Implementation of skip-gram model, outputs the word-embedding of 'corruption' for the three historical periods.
+- legacy_code: Original BTech Project submission.
+- model: word2vec trained model weights.
+- notebook: new, improved code.
+    - word2vec_model.ipynb: data and word2vec (skip-gram) model training.
+    - predicitions.ipynb: results from trained model
 
+See report.pdf for a complete description.
 
